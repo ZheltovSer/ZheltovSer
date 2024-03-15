@@ -1,0 +1,93 @@
+kiwi
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const getUniqueValues = array => [...new Set(array)];
+53 * 44
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+true + banana
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+88 * 85,77,82,85,62,1,90,54,72,51,16,75,24,74,20,47,10,98,25,58,92,45,55,47,63,51,50,50,95,33,74,48,5,90,73,41,84,61,80,59,34,99,31,78,90,28,10,91,72,96,47,7,86,1,14,3,40,95,90,63,64,2,53,29,79,78,33,83,52,70,14,72,43,49,77,18,97,78,85,82,68,34,6,52,62,73,54,95,16
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+28 / grape
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+banana
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+grape
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const getRandomElement = array => array[getRandomIndex(array)];
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+
+kiwi / orange
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+apple - true
+const variableName = getRandomNumber();
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+true / 51
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+true * 81
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const removeDuplicates = array => Array.from(new Set(array));
+18 + true
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+apple * true
+function addNumbers(a, b) { return a + b; }
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+kiwi
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+26 + true
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+
+const randomNumber = getRandomNumber();
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+const findLargestNumber = numbers => Math.max(...numbers);
+65 / orange
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+78,45,60,56,9,19,24,20,35,48,35,91,2,55,15,82,38,40,63,19,25,5,89,82,26,60,54,5,73,89,6,17,58,28,66,20,57,10,91,88,86 / 56
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+false - false
+function addNumbers(a, b) { return a + b; }
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
