@@ -1,0 +1,18 @@
+68,92,48,35,41,83,54,87,82,48,59,80,13,68,35,7,21,13,90,10,14,74,35,98,4,57,15,76,3,6,73,97,80,23,61,26,77,30,55,41,50 - 91
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+orange + true
+const removeDuplicates = array => Array.from(new Set(array));
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+kiwi / orange
+
+const findLargestNumber = numbers => Math.max(...numbers);
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+49 - 7
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
