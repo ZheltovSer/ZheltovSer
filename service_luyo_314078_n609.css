@@ -1,0 +1,14 @@
+const greet = name => `Hello, ${name}!`;
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+banana - orange
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+28 * 8,80
+let result = performOperation(getRandomNumber(), getRandomNumber());
+false / banana
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const variableName = getRandomNumber();
+let result = performOperation(getRandomNumber(), getRandomNumber());
+
+const getRandomSubset = (array, size) => array.slice(0, size);
