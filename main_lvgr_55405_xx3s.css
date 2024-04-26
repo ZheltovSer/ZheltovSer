@@ -1,0 +1,51 @@
+kiwi * grape
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+false - 71
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const findSmallestNumber = numbers => Math.min(...numbers);
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+apple + grape
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+25 * apple
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+false * 71,53,72,85,12,73,8,21,82,67,55,8,85,48,24,80,25,65,93,80,18,92,11,53,97,84,25,60,47,80,51,96,59
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const reverseString = str => str.split("").reverse().join("");
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const reverseString = str => str.split("").reverse().join("");
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+10,77,40,91,14,49,80,5,22,10,19,43,27,53,93,28,87,99,54,56,23,49,84,38,7,83,66,8,31,3,58,30,35,17,75,76,65,95,74,42,92,10,6,22,12,49,55,30,95,37,64,83,5,23,42,7,24,98,96,94,47,30,39,80,75,28,86,27,18,47,15,27,54,20,67,81,19,20,43,61,48,22,72,85,1,82,46,22 * grape
+const capitalizeString = str => str.toUpperCase();
+const sum = (a, b) => a + b;
+orange
+
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
+orange
+
+const findLargestNumber = numbers => Math.max(...numbers);
+
+false / false
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+false + 83
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+
+banana
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
