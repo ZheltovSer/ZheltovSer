@@ -1,0 +1,9 @@
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+kiwi
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+
+banana
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
